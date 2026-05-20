@@ -14,7 +14,7 @@ const indianStates = [
 ]
 
 const classOptions = [
-  { value: 'class12-awaiting', label: 'Class 12 (Result Awaited)' },
+  { value: 'class12-awaiting', label: 'Class 12 (Passed Out)' },
   { value: 'class12-pursuing', label: 'Class 12 (Pursuing)' },
 ]
 
