@@ -2,7 +2,7 @@
 import api from '../api'
 
 const formTitle = import.meta.env.VITE_FORM_TITLE || 'Register Now'
-const logoUrl = `${import.meta.env.BASE_URL}geu-logo.webp`
+const logoUrl = `${import.meta.env.BASE_URL}geu-white-de3bfd09.svg`
 
 const indianStates = [
   'Andhra Pradesh', 'Arunachal Pradesh', 'Assam', 'Bihar', 'Chhattisgarh', 'Goa', 'Gujarat', 'Haryana',
@@ -16,7 +16,6 @@ const indianStates = [
 const classOptions = [
   { value: 'class12-awaiting', label: 'Class 12 (Result Awaited)' },
   { value: 'class12-pursuing', label: 'Class 12 (Pursuing)' },
-  { value: 'class11', label: 'Class 11' }
 ]
 
 const streamOptions = [
@@ -250,8 +249,7 @@ function ApplicationFormPage() {
             </div>
 
             <div className="content-venue">
-              <p><strong>Venue:</strong> Graphic Era Deemed to be University</p>
-              <p>Bell Road, Clement Town, Dehradun</p>
+              <p><strong>Venue:</strong><b>Graphic Era Hill University, Bhimtal</b></p>
             </div>
 
             <div className="content-footer">

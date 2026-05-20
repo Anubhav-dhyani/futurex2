@@ -1766,7 +1766,7 @@ th {
     left: auto;
     display: block;
     margin: 12px auto 16px;
-    height: 52px;
+    height: 68px;
   }
 
   .hero-content {
@@ -1826,12 +1826,12 @@ th {
     left: 50%;
     transform: translateX(-50%);
     margin: 0 auto 0;
-    height: 44px;
+    height: 48px;
     z-index: 10;
   }
 
   .hero-content.two-column-layout {
-    padding-top: 60px;
+    padding-top: 48px;
   }
 
   .hero-content.two-column-layout {
