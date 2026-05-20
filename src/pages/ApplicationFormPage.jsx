@@ -402,7 +402,7 @@ function ApplicationFormPage() {
                 <div className="indemnity-label">
                   <strong>Indemnity & Consent Declaration</strong>
                   <p className="indemnity-text">
-                    I, the undersigned student, voluntarily agree to participate in the 5-Day Residential Boot Camp at the campus of Graphic Era Deemed to be University.I am participating of my own free will, and I shall be solely responsible for my personal belongings, and adherence to the institution’s rules, discipline, and code of conduct, during my travel.I undertake to maintain proper behavior and follow all safety guidelines. The institution shall not be held liable for any personal loss, injury, or unforeseen circumstances arising during my participation.
+                    I, the undersigned student, voluntarily agree to participate in the 5-Day Residential Boot Camp at the campus of Graphic Era Hill University Bhimtal .I am participating of my own free will, and I shall be solely responsible for my personal belongings, and adherence to the institution’s rules, discipline, and code of conduct, during my travel.I undertake to maintain proper behavior and follow all safety guidelines. The institution shall not be held liable for any personal loss, injury, or unforeseen circumstances arising during my participation.
                   </p>
                   <label className="checkbox-wrapper">
                     <input
