@@ -469,8 +469,7 @@ function ApplicationFormPage() {
             </div>
 
             <div className="details-venue">
-              <p><strong>Venue:</strong> Graphic Era Deemed to be University</p>
-              <p>Bell Road, Clement Town, Dehradun</p>
+              <p><strong>Venue:</strong> <b>Graphic Era Hill University, Bhimtal</b></p>
             </div>
 
             <div className="details-footer">
