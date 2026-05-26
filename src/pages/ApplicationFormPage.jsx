@@ -14,8 +14,7 @@ const indianStates = [
 ]
 
 const classOptions = [
-  { value: 'class12-awaiting', label: 'Class 12 (Passed Out)' },
-  { value: 'class12-pursuing', label: 'Class 12 (Pursuing)' },
+  { value: 'class12-passed', label: 'Class 12 (Passed Out)' },
 ]
 
 const streamOptions = [
@@ -225,7 +224,7 @@ function ApplicationFormPage() {
                 <span className="h-icon">🎯</span>
                 <div className="h-text">
                   <strong>Eligibility</strong>
-                  <span>Class 11 & 12 Students</span>
+                  <span>Class 12 Students</span>
                 </div>
               </div>
               <div className="highlight-card free">

@@ -19,6 +19,11 @@ const requiredFields = [
   ['studentClass', 'Class'],
 ]
 
+const classValueMap = new Map([
+  ['class12-passed', 'class12-passed'],
+  ['class12-awaiting', 'class12-passed'],
+])
+
 function cleanText(value) {
   return typeof value === 'string' ? value.trim() : value
 }
@@ -37,6 +42,10 @@ function normalizeEmail(value) {
 
 function normalizePhone(value) {
   return cleanText(value).replace(/\D/g, '')
+}
+
+function normalizeStudentClass(value) {
+  return classValueMap.get(cleanText(value))
 }
 
 function getDuplicateMessage(error) {
@@ -80,6 +89,12 @@ router.post('/', async (request, response) => {
       return response.status(400).json({ message: 'OTP verification is required.' })
     }
 
+    const studentClass = normalizeStudentClass(form.studentClass)
+
+    if (!studentClass) {
+      return response.status(400).json({ message: 'Please select Class 12 (Passed Out).' })
+    }
+
     const email = normalizeEmail(form.email)
     const mobile = normalizePhone(form.mobile)
     const parentMobile = normalizePhone(form.parentMobile)
@@ -119,7 +134,7 @@ router.post('/', async (request, response) => {
       city: form.city,
       state: form.state,
       stream: form.stream,
-      studentClass: form.studentClass,
+      studentClass,
       indemnityAgreed: true,
     })
 

@@ -13,7 +13,7 @@ const formEntrySchema = new mongoose.Schema(
     city: { type: String, required: true, trim: true },
     state: { type: String, required: true, trim: true },
     stream: { type: String, required: true, trim: true },
-    studentClass: { type: String, required: true, trim: true },
+    studentClass: { type: String, required: true, trim: true, enum: ['class12-passed'] },
     indemnityAgreed: { type: Boolean, required: true, default: false },
   },
   {
