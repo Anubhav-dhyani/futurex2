@@ -444,7 +444,7 @@ function ApplicationFormPage() {
                 <span className="h-icon">🎯</span>
                 <div className="h-text">
                   <strong>Eligibility</strong>
-                  <span>Class 11 & 12 Students</span>
+                  <span>Class 12 Students</span>
                 </div>
               </div>
               <div className="highlight-card free">
